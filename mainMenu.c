@@ -2,5 +2,9 @@
 
 int main(){
     int mainMenu;
-    scanf("%d", mainMenu);
+    
+
+    if(scanf("%d", mainMenu)){
+        printf("Menu Scanned\n");
+    }
 }
